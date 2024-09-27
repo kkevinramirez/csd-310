@@ -2,11 +2,11 @@ import mysql.connector
 from mysql.connector import errorcode
 
 config = {
-    'user': 'root',
-    'password': 'Az34!6kBw',
-    'host': '3306',
-    'database': 'movie_queries',
-    'raise_on_warnings': True,
+    user = 'root',
+    password = 'Az34!6kBw',
+    host = '3306',
+    database = 'movie_queries',
+    raise_on_warnings = True,
 }
 
 # Create a cursor object
